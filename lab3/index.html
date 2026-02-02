@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Web chào bạn</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="text">Xin chào 👋</h1>
+    <button onclick="chao()">Bấm để được chào</button>
+
+    <script>
+        function chao() {
+            document.getElementById("text").innerText = "Chào bạn nè 😄";
+        }
+    </script>
+
+</body>
+</html>
